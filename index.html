@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="frist-info">
+            <h1 id="fristTemptureText"></h1>
+            <section class="more-info">
+                <section class="frist-city-info">
+                    <h3 id="fristCityName"></h3>
+                    <small id="realTime"></small>
+                </section>
+                <section class="type-of-weather">
+                    <img src="" alt="" id="typeOfWeatherImg">
+                    <small id="typeOfWeatherText">Rainy</small>
+                </section>
+
+            </section>
+        </section>
+        <section class="side-bar">
+            <div class="another-location">
+                <div class="search-section">
+                    <input type="text" id="searchLocation" class="search-inp" placeholder="Another locatain">
+                    <button id="searchBtn" class="btn"><i class="fa fa-search"></i></button>
+
+                </div>
+                <div class="suggest-location">
+                    <button class="suggest-item">Tehran</button>
+                    <button class="suggest-item">Shiraz</button>
+                    <button class="suggest-item">Mashhad</button>
+                    <button class="suggest-item">London</button>
+                </div>
+            </div>
+            <section class="weather-details">
+                <h4>Weather Details</h4>
+                <section class="title-and-answer">
+                    <section class="title">
+                        <p>Cloudy</p>
+                        <p>Humidity</p>
+                        <p>Wind</p>
+                        <p>Rain</p>
+                    </section>
+                    <section class="answer">
+                        <p id="cloudy"></p>
+                        <p id="humidity"></p>
+                        <p id="wind"></p>
+                        <p id="rain"></p>
+                    </section>
+                </section>
+            </section>
+
+            <section class="max-and-min">
+                <h2>Tempture</h2>
+                <section class="result-max-and-min">
+                    <section class="max-temp">
+                        <h3>Max</h3>
+                        <h3 id="maxTemture"></h3>
+                    </section>
+                    <section class="min-temp">
+                        <h3>Min</h3>
+                        <h3 id="minTemture"></h3>
+                    </section>
+                </section>
+
+            </section>
+        </section>
+        <section class="clear-fix"></section>
+        <img src="img/rainy-min.jpg" class="bg-img">
+        <img src="img/sunny-min.jpg" class="bg-img">
+        <img src="img/cloudy-min.jpg" class="bg-img">
+        <img src="img/snowy-min.jpg" class="bg-img">
+        <img src="img/foggy-min.jpg" class="bg-img">
+        <img src="img/clear-min.jpg" class="bg-img">
+        <img src="img/Thundery-min.jpg" class="bg-img">
+        <img src="img/blizzard-min.jpg" class="bg-img">
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
